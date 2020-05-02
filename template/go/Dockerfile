@@ -1,4 +1,4 @@
-FROM openfaas/classic-watchdog:0.18.1 as watchdog
+FROM openfaas/of-watchdog:0.7.2 as watchdog
 FROM golang:1.13-alpine3.11 as builder
 
 # Required to enable Go modules
